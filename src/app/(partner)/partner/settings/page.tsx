@@ -23,8 +23,9 @@ export default function PartnerSettingsPage() {
         </div>
         <div className="space-y-4">
           <div>
-            <label className="block text-xs text-ink-muted mb-1.5">Firm name</label>
+            <label htmlFor="firm-name" className="block text-xs text-ink-muted mb-1.5">Firm name</label>
             <input
+              id="firm-name"
               type="text"
               value={firmName}
               onChange={(e) => setFirmName(e.target.value)}
@@ -32,8 +33,9 @@ export default function PartnerSettingsPage() {
             />
           </div>
           <div>
-            <label className="block text-xs text-ink-muted mb-1.5">Primary contact</label>
+            <label htmlFor="contact-name" className="block text-xs text-ink-muted mb-1.5">Primary contact</label>
             <input
+              id="contact-name"
               type="text"
               value={contactName}
               onChange={(e) => setContactName(e.target.value)}
@@ -41,8 +43,9 @@ export default function PartnerSettingsPage() {
             />
           </div>
           <div>
-            <label className="block text-xs text-ink-muted mb-1.5">Email</label>
+            <label htmlFor="contact-email" className="block text-xs text-ink-muted mb-1.5">Email</label>
             <input
+              id="contact-email"
               type="email"
               value={contactEmail}
               onChange={(e) => setContactEmail(e.target.value)}
@@ -64,6 +67,8 @@ export default function PartnerSettingsPage() {
         </p>
         <div className="flex gap-2">
           <input
+            id="referral-link"
+            aria-label="Referral link URL"
             type="text"
             value="https://app.example.com/r/torres-law"
             readOnly

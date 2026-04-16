@@ -114,7 +114,7 @@ export default function BeneficiariesPage() {
                 {ben.hasAccepted ? "Active" : "Pending"}
               </span>
             </div>
-            <h3 className="text-sm font-medium text-white/88">{ben.name}</h3>
+            <h2 className="text-sm font-medium text-white/88">{ben.name}</h2>
             <p className="text-xs text-white/40 mt-0.5">{ben.relationship}</p>
 
             <div className="mt-4 space-y-2">

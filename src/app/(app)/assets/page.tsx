@@ -100,7 +100,7 @@ export default function AssetsPage() {
       </div>
 
       {/* Category pills */}
-      <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-hide">
+      <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-hide -mx-4 px-4 sm:mx-0 sm:px-0">
         {CATEGORIES.map((cat) => {
           const Icon = cat.icon;
           const count = cat.value === "ALL" ? mockAssets.length : mockAssets.filter((a) => a.category === cat.value).length;
@@ -145,9 +145,9 @@ export default function AssetsPage() {
                     {asset.status === "complete" ? "Documented" : "Incomplete"}
                   </span>
                 </div>
-                <h3 className="text-sm font-medium text-white/88 mb-1 group-hover:text-gold transition-colors">
+                <h2 className="text-sm font-medium text-white/88 mb-1 group-hover:text-gold transition-colors">
                   {asset.name}
-                </h3>
+                </h2>
                 <p className="text-xs text-white/40">
                   {CATEGORIES.find((c) => c.value === asset.category)?.label} &middot; {asset.beneficiaries} beneficiar{asset.beneficiaries === 1 ? "y" : "ies"} &middot; {asset.updatedAt}
                 </p>

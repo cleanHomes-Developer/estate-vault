@@ -51,7 +51,7 @@ export default function SecurityPage() {
                       <div className="flex items-center gap-2">
                         <span className="font-mono text-xs text-gold">Layer {i + 1}</span>
                       </div>
-                      <h3 className="font-medium text-ink mt-0.5">{layer.title}</h3>
+                      <h2 className="font-medium text-ink mt-0.5 text-base">{layer.title}</h2>
                     </div>
                     <div className={`transition-transform ${isExpanded ? "rotate-180" : ""}`}>
                       <svg className="h-5 w-5 text-ink-muted" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">

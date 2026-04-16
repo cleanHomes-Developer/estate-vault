@@ -1,0 +1,392 @@
+[
+  {
+    "page": "Homepage",
+    "path": "/",
+    "title": "[PRODUCT_NAME] — Your digital estate, documented and protected.",
+    "description": "A private vault that helps you document your digital assets and pass them on to trusted people through a controlled, cryptographically-enforced process.",
+    "ogTitle": "[PRODUCT_NAME]",
+    "ogDescription": "A private vault that helps you document your digital assets and pass them on to trusted people through a controlled, cryptographically-enforced process.",
+    "ogImage": null,
+    "canonical": null,
+    "h1Count": 1,
+    "h1Text": [
+      "Everything you have built, remembered."
+    ],
+    "hasViewport": true,
+    "hasCharset": true,
+    "hasLang": true,
+    "headingHierarchy": [
+      "H1: Everything you have built, remembered.",
+      "H2: The problem no one talks about",
+      "H2: Everything in one secure place",
+      "H2: Three steps to certainty",
+      "H3: Document",
+      "H3: Assign",
+      "H3: Protect",
+      "H2: Built for what matters",
+      "H3: Zero-knowledge encryption",
+      "H3: Selective sharing"
+    ],
+    "issues": [
+      "Missing og:image",
+      "Missing canonical URL"
+    ]
+  },
+  {
+    "page": "Features",
+    "path": "/features",
+    "title": "Features | [PRODUCT_NAME]",
+    "description": "A private vault that helps you document your digital assets and pass them on to trusted people through a controlled, cryptographically-enforced process.",
+    "ogTitle": "[PRODUCT_NAME]",
+    "ogDescription": "A private vault that helps you document your digital assets and pass them on to trusted people through a controlled, cryptographically-enforced process.",
+    "ogImage": null,
+    "canonical": null,
+    "h1Count": 1,
+    "h1Text": [
+      "Built for what matters"
+    ],
+    "hasViewport": true,
+    "hasCharset": true,
+    "hasLang": true,
+    "headingHierarchy": [
+      "H1: Built for what matters",
+      "H2: Zero-knowledge encryption",
+      "H2: Three-key hierarchy",
+      "H2: Configurable check-in system",
+      "H2: Vault simulator",
+      "H2: Nine asset categories",
+      "H2: Personal messages",
+      "H2: Exhibit A export",
+      "H2: Partner portal",
+      "H2: Ready to begin?"
+    ],
+    "issues": [
+      "Missing og:image",
+      "Missing canonical URL"
+    ]
+  },
+  {
+    "page": "Security",
+    "path": "/security",
+    "title": "[PRODUCT_NAME] — Your digital estate, documented and protected.",
+    "description": "A private vault that helps you document your digital assets and pass them on to trusted people through a controlled, cryptographically-enforced process.",
+    "ogTitle": "[PRODUCT_NAME]",
+    "ogDescription": "A private vault that helps you document your digital assets and pass them on to trusted people through a controlled, cryptographically-enforced process.",
+    "ogImage": null,
+    "canonical": null,
+    "h1Count": 1,
+    "h1Text": [
+      "Six layers between your data and everyone else"
+    ],
+    "hasViewport": true,
+    "hasCharset": true,
+    "hasLang": true,
+    "headingHierarchy": [
+      "H1: Six layers between your data and everyone else",
+      "H3: Argon2id password hardening",
+      "H3: SRP-6a private sign-in",
+      "H3: Three-key hierarchy",
+      "H3: XChaCha20-Poly1305 vault encryption",
+      "H3: TLS 1.3 transport",
+      "H3: Two-step verification",
+      "H2: Zero-knowledge architecture",
+      "H2: Security you can verify",
+      "H3: Product"
+    ],
+    "issues": [
+      "Missing og:image",
+      "Missing canonical URL",
+      "Heading hierarchy skip: H1 → H3"
+    ]
+  },
+  {
+    "page": "Pricing",
+    "path": "/pricing",
+    "title": "[PRODUCT_NAME] — Your digital estate, documented and protected.",
+    "description": "A private vault that helps you document your digital assets and pass them on to trusted people through a controlled, cryptographically-enforced process.",
+    "ogTitle": "[PRODUCT_NAME]",
+    "ogDescription": "A private vault that helps you document your digital assets and pass them on to trusted people through a controlled, cryptographically-enforced process.",
+    "ogImage": null,
+    "canonical": null,
+    "h1Count": 1,
+    "h1Text": [
+      "Straightforward pricing"
+    ],
+    "hasViewport": true,
+    "hasCharset": true,
+    "hasLang": true,
+    "headingHierarchy": [
+      "H1: Straightforward pricing",
+      "H3: Free",
+      "H3: Pro",
+      "H3: Business",
+      "H2: Questions about pricing?",
+      "H3: Product",
+      "H3: Resources",
+      "H3: Legal"
+    ],
+    "issues": [
+      "Missing og:image",
+      "Missing canonical URL",
+      "Heading hierarchy skip: H1 → H3"
+    ]
+  },
+  {
+    "page": "Partners",
+    "path": "/partners",
+    "title": "[PRODUCT_NAME] — Your digital estate, documented and protected.",
+    "description": "A private vault that helps you document your digital assets and pass them on to trusted people through a controlled, cryptographically-enforced process.",
+    "ogTitle": "[PRODUCT_NAME]",
+    "ogDescription": "A private vault that helps you document your digital assets and pass them on to trusted people through a controlled, cryptographically-enforced process.",
+    "ogImage": null,
+    "canonical": null,
+    "h1Count": 1,
+    "h1Text": [
+      "Bring digital estate planning to your practice"
+    ],
+    "hasViewport": true,
+    "hasCharset": true,
+    "hasLang": true,
+    "headingHierarchy": [
+      "H1: Bring digital estate planning to your practice",
+      "H3: 20% revenue share",
+      "H3: Partner portal",
+      "H3: Exhibit A templates",
+      "H3: White-label onboarding",
+      "H2: How the partnership works",
+      "H3: Apply",
+      "H3: Onboard",
+      "H3: Invite clients",
+      "H3: Earn"
+    ],
+    "issues": [
+      "Missing og:image",
+      "Missing canonical URL",
+      "Heading hierarchy skip: H1 → H3"
+    ]
+  },
+  {
+    "page": "Journal",
+    "path": "/journal",
+    "title": "Journal | [PRODUCT_NAME]",
+    "description": "A private vault that helps you document your digital assets and pass them on to trusted people through a controlled, cryptographically-enforced process.",
+    "ogTitle": "[PRODUCT_NAME]",
+    "ogDescription": "A private vault that helps you document your digital assets and pass them on to trusted people through a controlled, cryptographically-enforced process.",
+    "ogImage": null,
+    "canonical": null,
+    "h1Count": 1,
+    "h1Text": [
+      "Thoughts on security, product, and law"
+    ],
+    "hasViewport": true,
+    "hasCharset": true,
+    "hasLang": true,
+    "headingHierarchy": [
+      "H1: Thoughts on security, product, and law",
+      "H2: Why zero-knowledge encryption is non-negotiable fo",
+      "H2: Building trust through restraint: our approach to ",
+      "H2: RUFADAA Chapter 2001: what Texas law says about yo",
+      "H2: Why we built this: the $140 billion problem nobody",
+      "H2: The three-key hierarchy: how selective sharing act",
+      "H2: Designing the check-in system: balancing safety wi",
+      "H3: Product",
+      "H3: Resources",
+      "H3: Legal"
+    ],
+    "issues": [
+      "Missing og:image",
+      "Missing canonical URL"
+    ]
+  },
+  {
+    "page": "FAQ",
+    "path": "/faq",
+    "title": "[PRODUCT_NAME] — Your digital estate, documented and protected.",
+    "description": "A private vault that helps you document your digital assets and pass them on to trusted people through a controlled, cryptographically-enforced process.",
+    "ogTitle": "[PRODUCT_NAME]",
+    "ogDescription": "A private vault that helps you document your digital assets and pass them on to trusted people through a controlled, cryptographically-enforced process.",
+    "ogImage": null,
+    "canonical": null,
+    "h1Count": 1,
+    "h1Text": [
+      "Frequently asked questions"
+    ],
+    "hasViewport": true,
+    "hasCharset": true,
+    "hasLang": true,
+    "headingHierarchy": [
+      "H1: Frequently asked questions",
+      "H2: Still have questions?",
+      "H3: Product",
+      "H3: Resources",
+      "H3: Legal"
+    ],
+    "issues": [
+      "Missing og:image",
+      "Missing canonical URL"
+    ]
+  },
+  {
+    "page": "Login",
+    "path": "/login",
+    "title": "[PRODUCT_NAME] — Your digital estate, documented and protected.",
+    "description": "A private vault that helps you document your digital assets and pass them on to trusted people through a controlled, cryptographically-enforced process.",
+    "ogTitle": "[PRODUCT_NAME]",
+    "ogDescription": "A private vault that helps you document your digital assets and pass them on to trusted people through a controlled, cryptographically-enforced process.",
+    "ogImage": null,
+    "canonical": null,
+    "h1Count": 1,
+    "h1Text": [
+      "Welcome back"
+    ],
+    "hasViewport": true,
+    "hasCharset": true,
+    "hasLang": true,
+    "headingHierarchy": [
+      "H1: Welcome back"
+    ],
+    "issues": [
+      "Missing og:image",
+      "Missing canonical URL"
+    ]
+  },
+  {
+    "page": "Register",
+    "path": "/register",
+    "title": "[PRODUCT_NAME] — Your digital estate, documented and protected.",
+    "description": "A private vault that helps you document your digital assets and pass them on to trusted people through a controlled, cryptographically-enforced process.",
+    "ogTitle": "[PRODUCT_NAME]",
+    "ogDescription": "A private vault that helps you document your digital assets and pass them on to trusted people through a controlled, cryptographically-enforced process.",
+    "ogImage": null,
+    "canonical": null,
+    "h1Count": 1,
+    "h1Text": [
+      "Begin documenting"
+    ],
+    "hasViewport": true,
+    "hasCharset": true,
+    "hasLang": true,
+    "headingHierarchy": [
+      "H1: Begin documenting"
+    ],
+    "issues": [
+      "Missing og:image",
+      "Missing canonical URL"
+    ]
+  },
+  {
+    "page": "Dashboard",
+    "path": "/dashboard",
+    "title": "[PRODUCT_NAME] — Your digital estate, documented and protected.",
+    "description": "A private vault that helps you document your digital assets and pass them on to trusted people through a controlled, cryptographically-enforced process.",
+    "ogTitle": "[PRODUCT_NAME]",
+    "ogDescription": "A private vault that helps you document your digital assets and pass them on to trusted people through a controlled, cryptographically-enforced process.",
+    "ogImage": null,
+    "canonical": null,
+    "h1Count": 1,
+    "h1Text": [
+      "Dashboard"
+    ],
+    "hasViewport": true,
+    "hasCharset": true,
+    "hasLang": true,
+    "headingHierarchy": [
+      "H1: Dashboard",
+      "H2: Suggestions",
+      "H2: Recent assets",
+      "H2: Activity",
+      "H2: Vault Simulator"
+    ],
+    "issues": [
+      "Missing og:image",
+      "Missing canonical URL"
+    ]
+  },
+  {
+    "page": "Assets",
+    "path": "/assets",
+    "title": "[PRODUCT_NAME] — Your digital estate, documented and protected.",
+    "description": "A private vault that helps you document your digital assets and pass them on to trusted people through a controlled, cryptographically-enforced process.",
+    "ogTitle": "[PRODUCT_NAME]",
+    "ogDescription": "A private vault that helps you document your digital assets and pass them on to trusted people through a controlled, cryptographically-enforced process.",
+    "ogImage": null,
+    "canonical": null,
+    "h1Count": 1,
+    "h1Text": [
+      "Assets"
+    ],
+    "hasViewport": true,
+    "hasCharset": true,
+    "hasLang": true,
+    "headingHierarchy": [
+      "H1: Assets",
+      "H3: Bitcoin Wallet (Ledger Nano X)",
+      "H3: Ethereum Wallet (MetaMask)",
+      "H3: Domain Portfolio (Namecheap)",
+      "H3: Schwab Brokerage",
+      "H3: AWS Root Account",
+      "H3: Google Workspace Admin",
+      "H3: Passport & SSN",
+      "H3: Netflix / Spotify / Apple One",
+      "H3: Family Photos (iCloud)"
+    ],
+    "issues": [
+      "Missing og:image",
+      "Missing canonical URL",
+      "Heading hierarchy skip: H1 → H3"
+    ]
+  },
+  {
+    "page": "Beneficiaries",
+    "path": "/beneficiaries",
+    "title": "[PRODUCT_NAME] — Your digital estate, documented and protected.",
+    "description": "A private vault that helps you document your digital assets and pass them on to trusted people through a controlled, cryptographically-enforced process.",
+    "ogTitle": "[PRODUCT_NAME]",
+    "ogDescription": "A private vault that helps you document your digital assets and pass them on to trusted people through a controlled, cryptographically-enforced process.",
+    "ogImage": null,
+    "canonical": null,
+    "h1Count": 1,
+    "h1Text": [
+      "Beneficiaries"
+    ],
+    "hasViewport": true,
+    "hasCharset": true,
+    "hasLang": true,
+    "headingHierarchy": [
+      "H1: Beneficiaries",
+      "H3: Sarah Mitchell",
+      "H3: James Mitchell",
+      "H3: Rebecca Torres, Esq."
+    ],
+    "issues": [
+      "Missing og:image",
+      "Missing canonical URL",
+      "Heading hierarchy skip: H1 → H3"
+    ]
+  },
+  {
+    "page": "Partner Dashboard",
+    "path": "/partner/dashboard",
+    "title": "[PRODUCT_NAME] — Your digital estate, documented and protected.",
+    "description": "A private vault that helps you document your digital assets and pass them on to trusted people through a controlled, cryptographically-enforced process.",
+    "ogTitle": "[PRODUCT_NAME]",
+    "ogDescription": "A private vault that helps you document your digital assets and pass them on to trusted people through a controlled, cryptographically-enforced process.",
+    "ogImage": null,
+    "canonical": null,
+    "h1Count": 1,
+    "h1Text": [
+      "Partner Overview"
+    ],
+    "hasViewport": true,
+    "hasCharset": true,
+    "hasLang": true,
+    "headingHierarchy": [
+      "H1: Partner Overview",
+      "H2: Client vault health"
+    ],
+    "issues": [
+      "Missing og:image",
+      "Missing canonical URL"
+    ]
+  }
+]

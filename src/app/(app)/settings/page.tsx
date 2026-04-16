@@ -29,8 +29,9 @@ export default function SettingsPage() {
         </div>
         <div className="space-y-4 max-w-md">
           <div>
-            <label className="block text-xs text-white/55 mb-1.5">Display name</label>
+            <label htmlFor="display-name" className="block text-xs text-white/55 mb-1.5">Display name</label>
             <input
+              id="display-name"
               type="text"
               value={displayName}
               onChange={(e) => setDisplayName(e.target.value)}
@@ -38,8 +39,9 @@ export default function SettingsPage() {
             />
           </div>
           <div>
-            <label className="block text-xs text-white/55 mb-1.5">Email</label>
+            <label htmlFor="email-field" className="block text-xs text-white/55 mb-1.5">Email</label>
             <input
+              id="email-field"
               type="email"
               value={email}
               disabled
@@ -115,8 +117,8 @@ export default function SettingsPage() {
         </div>
         <div className="space-y-4 max-w-md">
           <div>
-            <label className="block text-xs text-white/55 mb-1.5">Timezone</label>
-            <select className="w-full rounded-lg bg-white/5 border border-white/10 px-3 py-2.5 text-sm text-white/88 focus:border-gold/50 focus:outline-none">
+            <label htmlFor="timezone-select" className="block text-xs text-white/55 mb-1.5">Timezone</label>
+            <select id="timezone-select" className="w-full rounded-lg bg-white/5 border border-white/10 px-3 py-2.5 text-sm text-white/88 focus:border-gold/50 focus:outline-none">
               <option value="America/Chicago">Central Time (CT)</option>
               <option value="America/New_York">Eastern Time (ET)</option>
               <option value="America/Denver">Mountain Time (MT)</option>
@@ -124,8 +126,8 @@ export default function SettingsPage() {
             </select>
           </div>
           <div>
-            <label className="block text-xs text-white/55 mb-1.5">Auto-lock vault</label>
-            <select className="w-full rounded-lg bg-white/5 border border-white/10 px-3 py-2.5 text-sm text-white/88 focus:border-gold/50 focus:outline-none">
+            <label htmlFor="autolock-select" className="block text-xs text-white/55 mb-1.5">Auto-lock vault</label>
+            <select id="autolock-select" className="w-full rounded-lg bg-white/5 border border-white/10 px-3 py-2.5 text-sm text-white/88 focus:border-gold/50 focus:outline-none">
               <option value="5">After 5 minutes of inactivity</option>
               <option value="15">After 15 minutes of inactivity</option>
               <option value="30">After 30 minutes of inactivity</option>

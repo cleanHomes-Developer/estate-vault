@@ -115,7 +115,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
       <div className="flex-1 lg:pl-64">
         {/* Mobile header */}
         <header className="lg:hidden flex items-center justify-between px-4 h-14 bg-vault-elevated border-b border-white/5">
-          <button onClick={() => setSidebarOpen(true)} className="text-white/55 hover:text-white/88">
+          <button onClick={() => setSidebarOpen(true)} className="text-white/55 hover:text-white/88" aria-label="Open navigation menu">
             <Menu className="h-5 w-5" aria-hidden="true" />
           </button>
           <div className="flex items-center gap-2">
@@ -125,7 +125,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           <div className="w-5" /> {/* Spacer for centering */}
         </header>
 
-        <main className="p-6 md:p-8 lg:p-10">
+        <main className="p-4 sm:p-6 md:p-8 lg:p-10 overflow-x-hidden">
           {children}
         </main>
       </div>

@@ -187,8 +187,9 @@ function SubscriptionCalculator() {
           className="flex-1 rounded-md border border-ink/20 bg-white px-3 py-2 text-sm text-ink placeholder:text-ink-muted/50 focus:border-gold focus:outline-none focus:ring-1 focus:ring-gold/20"
           aria-label="Email for subscription audit template"
         />
-        <button className="btn-primary text-sm px-4">
-          <Mail className="h-4 w-4" />
+        <button className="btn-primary text-sm px-4" aria-label="Send audit template">
+          <Mail className="h-4 w-4" aria-hidden="true" />
+          <span className="sr-only">Send</span>
         </button>
       </div>
     </div>

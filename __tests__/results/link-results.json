@@ -1,0 +1,2434 @@
+[
+  {
+    "sourcePage": "/",
+    "href": "/register",
+    "text": "Begin documenting",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/",
+    "href": "#how-it-works",
+    "text": "See how it works",
+    "type": "anchor",
+    "status": null,
+    "ok": true
+  },
+  {
+    "sourcePage": "/",
+    "href": "/register",
+    "text": "Get started free",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/features",
+    "href": "/",
+    "text": "[PRODUCT_NAME]",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/features",
+    "href": "/features",
+    "text": "Features",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/features",
+    "href": "/security",
+    "text": "Security",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/features",
+    "href": "/pricing",
+    "text": "Pricing",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/features",
+    "href": "/partners",
+    "text": "Partners",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/features",
+    "href": "/journal",
+    "text": "Journal",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/features",
+    "href": "/faq",
+    "text": "FAQ",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/features",
+    "href": "/login",
+    "text": "Sign in",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/features",
+    "href": "/register",
+    "text": "Get started",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/features",
+    "href": "/register",
+    "text": "Get started free",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/features",
+    "href": "/",
+    "text": "[PRODUCT_NAME]",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/features",
+    "href": "/features",
+    "text": "Features",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/features",
+    "href": "/security",
+    "text": "Security",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/features",
+    "href": "/pricing",
+    "text": "Pricing",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/features",
+    "href": "/partners",
+    "text": "Partners",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/features",
+    "href": "/journal",
+    "text": "Journal",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/features",
+    "href": "/faq",
+    "text": "FAQ",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/features",
+    "href": "/register",
+    "text": "Get started",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/features",
+    "href": "/privacy",
+    "text": "Privacy Policy",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/features",
+    "href": "/terms",
+    "text": "Terms of Service",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/security",
+    "href": "/",
+    "text": "[PRODUCT_NAME]",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/security",
+    "href": "/features",
+    "text": "Features",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/security",
+    "href": "/security",
+    "text": "Security",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/security",
+    "href": "/pricing",
+    "text": "Pricing",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/security",
+    "href": "/partners",
+    "text": "Partners",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/security",
+    "href": "/journal",
+    "text": "Journal",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/security",
+    "href": "/faq",
+    "text": "FAQ",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/security",
+    "href": "/login",
+    "text": "Sign in",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/security",
+    "href": "/register",
+    "text": "Get started",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/security",
+    "href": "/register",
+    "text": "Get started free",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/security",
+    "href": "/",
+    "text": "[PRODUCT_NAME]",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/security",
+    "href": "/features",
+    "text": "Features",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/security",
+    "href": "/security",
+    "text": "Security",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/security",
+    "href": "/pricing",
+    "text": "Pricing",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/security",
+    "href": "/partners",
+    "text": "Partners",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/security",
+    "href": "/journal",
+    "text": "Journal",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/security",
+    "href": "/faq",
+    "text": "FAQ",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/security",
+    "href": "/register",
+    "text": "Get started",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/security",
+    "href": "/privacy",
+    "text": "Privacy Policy",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/security",
+    "href": "/terms",
+    "text": "Terms of Service",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/pricing",
+    "href": "/",
+    "text": "[PRODUCT_NAME]",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/pricing",
+    "href": "/features",
+    "text": "Features",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/pricing",
+    "href": "/security",
+    "text": "Security",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/pricing",
+    "href": "/pricing",
+    "text": "Pricing",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/pricing",
+    "href": "/partners",
+    "text": "Partners",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/pricing",
+    "href": "/journal",
+    "text": "Journal",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/pricing",
+    "href": "/faq",
+    "text": "FAQ",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/pricing",
+    "href": "/login",
+    "text": "Sign in",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/pricing",
+    "href": "/register",
+    "text": "Get started",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/pricing",
+    "href": "/register",
+    "text": "Start free",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/pricing",
+    "href": "/register",
+    "text": "Start with Pro",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/pricing",
+    "href": "/partners",
+    "text": "Apply for Business",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/pricing",
+    "href": "/faq",
+    "text": "View FAQ",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/pricing",
+    "href": "/",
+    "text": "[PRODUCT_NAME]",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/pricing",
+    "href": "/features",
+    "text": "Features",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/pricing",
+    "href": "/security",
+    "text": "Security",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/pricing",
+    "href": "/pricing",
+    "text": "Pricing",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/pricing",
+    "href": "/partners",
+    "text": "Partners",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/pricing",
+    "href": "/journal",
+    "text": "Journal",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/pricing",
+    "href": "/faq",
+    "text": "FAQ",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/pricing",
+    "href": "/register",
+    "text": "Get started",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/pricing",
+    "href": "/privacy",
+    "text": "Privacy Policy",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/pricing",
+    "href": "/terms",
+    "text": "Terms of Service",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partners",
+    "href": "/",
+    "text": "[PRODUCT_NAME]",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partners",
+    "href": "/features",
+    "text": "Features",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partners",
+    "href": "/security",
+    "text": "Security",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partners",
+    "href": "/pricing",
+    "text": "Pricing",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partners",
+    "href": "/partners",
+    "text": "Partners",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partners",
+    "href": "/journal",
+    "text": "Journal",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partners",
+    "href": "/faq",
+    "text": "FAQ",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partners",
+    "href": "/login",
+    "text": "Sign in",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partners",
+    "href": "/register",
+    "text": "Get started",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partners",
+    "href": "/",
+    "text": "[PRODUCT_NAME]",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partners",
+    "href": "/features",
+    "text": "Features",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partners",
+    "href": "/security",
+    "text": "Security",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partners",
+    "href": "/pricing",
+    "text": "Pricing",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partners",
+    "href": "/partners",
+    "text": "Partners",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partners",
+    "href": "/journal",
+    "text": "Journal",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partners",
+    "href": "/faq",
+    "text": "FAQ",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partners",
+    "href": "/register",
+    "text": "Get started",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partners",
+    "href": "/privacy",
+    "text": "Privacy Policy",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partners",
+    "href": "/terms",
+    "text": "Terms of Service",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/journal",
+    "href": "/",
+    "text": "[PRODUCT_NAME]",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/journal",
+    "href": "/features",
+    "text": "Features",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/journal",
+    "href": "/security",
+    "text": "Security",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/journal",
+    "href": "/pricing",
+    "text": "Pricing",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/journal",
+    "href": "/partners",
+    "text": "Partners",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/journal",
+    "href": "/journal",
+    "text": "Journal",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/journal",
+    "href": "/faq",
+    "text": "FAQ",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/journal",
+    "href": "/login",
+    "text": "Sign in",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/journal",
+    "href": "/register",
+    "text": "Get started",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/journal",
+    "href": "/journal/why-zero-knowledge",
+    "text": "Why zero-knowledge encryption is non-negotiable fo",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/journal",
+    "href": "/journal/why-zero-knowledge",
+    "text": "Read",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/journal",
+    "href": "/journal/building-trust-through-restraint",
+    "text": "Building trust through restraint: our approach to ",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/journal",
+    "href": "/journal/building-trust-through-restraint",
+    "text": "Read",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/journal",
+    "href": "/journal/rufadaa-explained",
+    "text": "RUFADAA Chapter 2001: what Texas law says about yo",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/journal",
+    "href": "/journal/rufadaa-explained",
+    "text": "Read",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/journal",
+    "href": "/journal/why-we-built-this",
+    "text": "Why we built this: the $140 billion problem nobody",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/journal",
+    "href": "/journal/why-we-built-this",
+    "text": "Read",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/journal",
+    "href": "/journal/three-key-hierarchy",
+    "text": "The three-key hierarchy: how selective sharing act",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/journal",
+    "href": "/journal/three-key-hierarchy",
+    "text": "Read",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/journal",
+    "href": "/journal/check-in-system-design",
+    "text": "Designing the check-in system: balancing safety wi",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/journal",
+    "href": "/journal/check-in-system-design",
+    "text": "Read",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/journal",
+    "href": "/",
+    "text": "[PRODUCT_NAME]",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/journal",
+    "href": "/features",
+    "text": "Features",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/journal",
+    "href": "/security",
+    "text": "Security",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/journal",
+    "href": "/pricing",
+    "text": "Pricing",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/journal",
+    "href": "/partners",
+    "text": "Partners",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/journal",
+    "href": "/journal",
+    "text": "Journal",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/journal",
+    "href": "/faq",
+    "text": "FAQ",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/journal",
+    "href": "/register",
+    "text": "Get started",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/journal",
+    "href": "/privacy",
+    "text": "Privacy Policy",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/journal",
+    "href": "/terms",
+    "text": "Terms of Service",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/faq",
+    "href": "/",
+    "text": "[PRODUCT_NAME]",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/faq",
+    "href": "/features",
+    "text": "Features",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/faq",
+    "href": "/security",
+    "text": "Security",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/faq",
+    "href": "/pricing",
+    "text": "Pricing",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/faq",
+    "href": "/partners",
+    "text": "Partners",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/faq",
+    "href": "/journal",
+    "text": "Journal",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/faq",
+    "href": "/faq",
+    "text": "FAQ",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/faq",
+    "href": "/login",
+    "text": "Sign in",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/faq",
+    "href": "/register",
+    "text": "Get started",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/faq",
+    "href": "/register",
+    "text": "Get started free",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/faq",
+    "href": "mailto:hello@example.com",
+    "text": "Contact us",
+    "type": "mailto",
+    "status": null,
+    "ok": true
+  },
+  {
+    "sourcePage": "/faq",
+    "href": "/",
+    "text": "[PRODUCT_NAME]",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/faq",
+    "href": "/features",
+    "text": "Features",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/faq",
+    "href": "/security",
+    "text": "Security",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/faq",
+    "href": "/pricing",
+    "text": "Pricing",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/faq",
+    "href": "/partners",
+    "text": "Partners",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/faq",
+    "href": "/journal",
+    "text": "Journal",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/faq",
+    "href": "/faq",
+    "text": "FAQ",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/faq",
+    "href": "/register",
+    "text": "Get started",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/faq",
+    "href": "/privacy",
+    "text": "Privacy Policy",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/faq",
+    "href": "/terms",
+    "text": "Terms of Service",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/login",
+    "href": "/",
+    "text": "[PRODUCT_NAME]",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/login",
+    "href": "/",
+    "text": "[PRODUCT_NAME]",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/login",
+    "href": "/recover",
+    "text": "Forgot your password? Use recovery key",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/login",
+    "href": "/register",
+    "text": "Begin documenting",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/register",
+    "href": "/",
+    "text": "[PRODUCT_NAME]",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/register",
+    "href": "/",
+    "text": "[PRODUCT_NAME]",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/register",
+    "href": "/login",
+    "text": "Sign in",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/dashboard",
+    "href": "/dashboard",
+    "text": "Dashboard",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/dashboard",
+    "href": "/assets",
+    "text": "Assets",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/dashboard",
+    "href": "/beneficiaries",
+    "text": "Beneficiaries",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/dashboard",
+    "href": "/simulator",
+    "text": "Vault Simulator",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/dashboard",
+    "href": "/messages",
+    "text": "Messages",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/dashboard",
+    "href": "/checkin",
+    "text": "Check-in",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/dashboard",
+    "href": "/vault-security",
+    "text": "Security",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/dashboard",
+    "href": "/subscription",
+    "text": "Subscription",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/dashboard",
+    "href": "/settings",
+    "text": "Settings",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/dashboard",
+    "href": "/assets/new",
+    "text": "Add asset",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/dashboard",
+    "href": "/assets",
+    "text": "12Assets documented",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/dashboard",
+    "href": "/beneficiaries",
+    "text": "3Trusted people",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/dashboard",
+    "href": "/checkin",
+    "text": "18Days until check-in",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/dashboard",
+    "href": "/assets",
+    "text": "Assign",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/dashboard",
+    "href": "/assets",
+    "text": "Continue",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/dashboard",
+    "href": "/security",
+    "text": "Enable",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/dashboard",
+    "href": "/assets",
+    "text": "View all",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/dashboard",
+    "href": "/simulator",
+    "text": "Open simulator",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/assets",
+    "href": "/dashboard",
+    "text": "Dashboard",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/assets",
+    "href": "/assets",
+    "text": "Assets",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/assets",
+    "href": "/beneficiaries",
+    "text": "Beneficiaries",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/assets",
+    "href": "/simulator",
+    "text": "Vault Simulator",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/assets",
+    "href": "/messages",
+    "text": "Messages",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/assets",
+    "href": "/checkin",
+    "text": "Check-in",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/assets",
+    "href": "/vault-security",
+    "text": "Security",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/assets",
+    "href": "/subscription",
+    "text": "Subscription",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/assets",
+    "href": "/settings",
+    "text": "Settings",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/assets",
+    "href": "/assets/new",
+    "text": "Add asset",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/assets",
+    "href": "/assets/1",
+    "text": "DocumentedBitcoin Wallet (Ledger Nano X)Crypto · 2",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/assets",
+    "href": "/assets/2",
+    "text": "DocumentedEthereum Wallet (MetaMask)Crypto · 1 ben",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/assets",
+    "href": "/assets/3",
+    "text": "DocumentedDomain Portfolio (Namecheap)Domains · 1 ",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/assets",
+    "href": "/assets/4",
+    "text": "IncompleteSchwab BrokerageFinancial · 0 beneficiar",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/assets",
+    "href": "/assets/5",
+    "text": "DocumentedAWS Root AccountBusiness · 2 beneficiari",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/assets",
+    "href": "/assets/6",
+    "text": "DocumentedGoogle Workspace AdminBusiness · 1 benef",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/assets",
+    "href": "/assets/7",
+    "text": "DocumentedPassport & SSNIdentity · 1 beneficiary ·",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/assets",
+    "href": "/assets/8",
+    "text": "IncompleteNetflix / Spotify / Apple OneSubscriptio",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/assets",
+    "href": "/assets/9",
+    "text": "DocumentedFamily Photos (iCloud)Documents · 3 bene",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/assets",
+    "href": "/assets/10",
+    "text": "DocumentedLife Insurance PolicyFinancial · 1 benef",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/assets",
+    "href": "/assets/11",
+    "text": "DocumentedVanguard 401(k)Financial · 1 beneficiary",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/assets",
+    "href": "/assets/12",
+    "text": "IncompletePersonal Website (Vercel)Domains · 0 ben",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/assets",
+    "href": "/assets/new",
+    "text": "Add asset",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/assets/new",
+    "href": "/dashboard",
+    "text": "Dashboard",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/assets/new",
+    "href": "/assets",
+    "text": "Assets",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/assets/new",
+    "href": "/beneficiaries",
+    "text": "Beneficiaries",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/assets/new",
+    "href": "/simulator",
+    "text": "Vault Simulator",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/assets/new",
+    "href": "/messages",
+    "text": "Messages",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/assets/new",
+    "href": "/checkin",
+    "text": "Check-in",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/assets/new",
+    "href": "/vault-security",
+    "text": "Security",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/assets/new",
+    "href": "/subscription",
+    "text": "Subscription",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/assets/new",
+    "href": "/settings",
+    "text": "Settings",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/assets/new",
+    "href": "/assets",
+    "text": "",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/beneficiaries",
+    "href": "/dashboard",
+    "text": "Dashboard",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/beneficiaries",
+    "href": "/assets",
+    "text": "Assets",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/beneficiaries",
+    "href": "/beneficiaries",
+    "text": "Beneficiaries",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/beneficiaries",
+    "href": "/simulator",
+    "text": "Vault Simulator",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/beneficiaries",
+    "href": "/messages",
+    "text": "Messages",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/beneficiaries",
+    "href": "/checkin",
+    "text": "Check-in",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/beneficiaries",
+    "href": "/vault-security",
+    "text": "Security",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/beneficiaries",
+    "href": "/subscription",
+    "text": "Subscription",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/beneficiaries",
+    "href": "/settings",
+    "text": "Settings",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/beneficiaries",
+    "href": "/beneficiaries/1",
+    "text": "Manage",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/beneficiaries",
+    "href": "/simulator?beneficiary=1",
+    "text": "Preview their view",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/beneficiaries",
+    "href": "/beneficiaries/2",
+    "text": "Manage",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/beneficiaries",
+    "href": "/simulator?beneficiary=2",
+    "text": "Preview their view",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/beneficiaries",
+    "href": "/beneficiaries/3",
+    "text": "Manage",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/beneficiaries",
+    "href": "/simulator?beneficiary=3",
+    "text": "Preview their view",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/simulator",
+    "href": "/dashboard",
+    "text": "Dashboard",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/simulator",
+    "href": "/assets",
+    "text": "Assets",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/simulator",
+    "href": "/beneficiaries",
+    "text": "Beneficiaries",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/simulator",
+    "href": "/simulator",
+    "text": "Vault Simulator",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/simulator",
+    "href": "/messages",
+    "text": "Messages",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/simulator",
+    "href": "/checkin",
+    "text": "Check-in",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/simulator",
+    "href": "/vault-security",
+    "text": "Security",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/simulator",
+    "href": "/subscription",
+    "text": "Subscription",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/simulator",
+    "href": "/settings",
+    "text": "Settings",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/messages",
+    "href": "/dashboard",
+    "text": "Dashboard",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/messages",
+    "href": "/assets",
+    "text": "Assets",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/messages",
+    "href": "/beneficiaries",
+    "text": "Beneficiaries",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/messages",
+    "href": "/simulator",
+    "text": "Vault Simulator",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/messages",
+    "href": "/messages",
+    "text": "Messages",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/messages",
+    "href": "/checkin",
+    "text": "Check-in",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/messages",
+    "href": "/vault-security",
+    "text": "Security",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/messages",
+    "href": "/subscription",
+    "text": "Subscription",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/messages",
+    "href": "/settings",
+    "text": "Settings",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/checkin",
+    "href": "/dashboard",
+    "text": "Dashboard",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/checkin",
+    "href": "/assets",
+    "text": "Assets",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/checkin",
+    "href": "/beneficiaries",
+    "text": "Beneficiaries",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/checkin",
+    "href": "/simulator",
+    "text": "Vault Simulator",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/checkin",
+    "href": "/messages",
+    "text": "Messages",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/checkin",
+    "href": "/checkin",
+    "text": "Check-in",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/checkin",
+    "href": "/vault-security",
+    "text": "Security",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/checkin",
+    "href": "/subscription",
+    "text": "Subscription",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/checkin",
+    "href": "/settings",
+    "text": "Settings",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/vault-security",
+    "href": "/dashboard",
+    "text": "Dashboard",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/vault-security",
+    "href": "/assets",
+    "text": "Assets",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/vault-security",
+    "href": "/beneficiaries",
+    "text": "Beneficiaries",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/vault-security",
+    "href": "/simulator",
+    "text": "Vault Simulator",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/vault-security",
+    "href": "/messages",
+    "text": "Messages",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/vault-security",
+    "href": "/checkin",
+    "text": "Check-in",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/vault-security",
+    "href": "/vault-security",
+    "text": "Security",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/vault-security",
+    "href": "/subscription",
+    "text": "Subscription",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/vault-security",
+    "href": "/settings",
+    "text": "Settings",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/subscription",
+    "href": "/dashboard",
+    "text": "Dashboard",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/subscription",
+    "href": "/assets",
+    "text": "Assets",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/subscription",
+    "href": "/beneficiaries",
+    "text": "Beneficiaries",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/subscription",
+    "href": "/simulator",
+    "text": "Vault Simulator",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/subscription",
+    "href": "/messages",
+    "text": "Messages",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/subscription",
+    "href": "/checkin",
+    "text": "Check-in",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/subscription",
+    "href": "/vault-security",
+    "text": "Security",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/subscription",
+    "href": "/subscription",
+    "text": "Subscription",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/subscription",
+    "href": "/settings",
+    "text": "Settings",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/settings",
+    "href": "/dashboard",
+    "text": "Dashboard",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/settings",
+    "href": "/assets",
+    "text": "Assets",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/settings",
+    "href": "/beneficiaries",
+    "text": "Beneficiaries",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/settings",
+    "href": "/simulator",
+    "text": "Vault Simulator",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/settings",
+    "href": "/messages",
+    "text": "Messages",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/settings",
+    "href": "/checkin",
+    "text": "Check-in",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/settings",
+    "href": "/vault-security",
+    "text": "Security",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/settings",
+    "href": "/subscription",
+    "text": "Subscription",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/settings",
+    "href": "/settings",
+    "text": "Settings",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/dashboard",
+    "href": "/partner/dashboard",
+    "text": "Overview",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/dashboard",
+    "href": "/partner/clients",
+    "text": "Clients",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/dashboard",
+    "href": "/partner/revenue",
+    "text": "Revenue",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/dashboard",
+    "href": "/partner/exhibit-a",
+    "text": "Exhibit A",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/dashboard",
+    "href": "/partner/resources",
+    "text": "Resources",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/dashboard",
+    "href": "/partner/settings",
+    "text": "Settings",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/dashboard",
+    "href": "/partner/clients",
+    "text": "Invite client",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/dashboard",
+    "href": "/partner/clients",
+    "text": "View all",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/dashboard",
+    "href": "/partner/exhibit-a",
+    "text": "Generate Exhibit ACreate a RUFADAA-compliant sched",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/dashboard",
+    "href": "/partner/resources",
+    "text": "Partner resourcesTemplates, guides, and marketing ",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/clients",
+    "href": "/partner/dashboard",
+    "text": "Overview",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/clients",
+    "href": "/partner/clients",
+    "text": "Clients",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/clients",
+    "href": "/partner/revenue",
+    "text": "Revenue",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/clients",
+    "href": "/partner/exhibit-a",
+    "text": "Exhibit A",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/clients",
+    "href": "/partner/resources",
+    "text": "Resources",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/clients",
+    "href": "/partner/settings",
+    "text": "Settings",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/revenue",
+    "href": "/partner/dashboard",
+    "text": "Overview",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/revenue",
+    "href": "/partner/clients",
+    "text": "Clients",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/revenue",
+    "href": "/partner/revenue",
+    "text": "Revenue",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/revenue",
+    "href": "/partner/exhibit-a",
+    "text": "Exhibit A",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/revenue",
+    "href": "/partner/resources",
+    "text": "Resources",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/revenue",
+    "href": "/partner/settings",
+    "text": "Settings",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/exhibit-a",
+    "href": "/partner/dashboard",
+    "text": "Overview",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/exhibit-a",
+    "href": "/partner/clients",
+    "text": "Clients",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/exhibit-a",
+    "href": "/partner/revenue",
+    "text": "Revenue",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/exhibit-a",
+    "href": "/partner/exhibit-a",
+    "text": "Exhibit A",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/exhibit-a",
+    "href": "/partner/resources",
+    "text": "Resources",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/exhibit-a",
+    "href": "/partner/settings",
+    "text": "Settings",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/resources",
+    "href": "/partner/dashboard",
+    "text": "Overview",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/resources",
+    "href": "/partner/clients",
+    "text": "Clients",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/resources",
+    "href": "/partner/revenue",
+    "text": "Revenue",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/resources",
+    "href": "/partner/exhibit-a",
+    "text": "Exhibit A",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/resources",
+    "href": "/partner/resources",
+    "text": "Resources",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/resources",
+    "href": "/partner/settings",
+    "text": "Settings",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/settings",
+    "href": "/partner/dashboard",
+    "text": "Overview",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/settings",
+    "href": "/partner/clients",
+    "text": "Clients",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/settings",
+    "href": "/partner/revenue",
+    "text": "Revenue",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/settings",
+    "href": "/partner/exhibit-a",
+    "text": "Exhibit A",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/settings",
+    "href": "/partner/resources",
+    "text": "Resources",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "sourcePage": "/partner/settings",
+    "href": "/partner/settings",
+    "text": "Settings",
+    "type": "internal",
+    "status": 200,
+    "ok": true
+  }
+]
