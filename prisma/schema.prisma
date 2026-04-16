@@ -1,0 +1,387 @@
+// Prisma Schema — Digital Estate Vault
+// Zero-knowledge architecture: all sensitive fields are encrypted client-side.
+// The server stores only ciphertext, verifiers, and salts.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ─── Multi-tenancy (Day-Zero) ───────────────────────────────────────────────
+
+model Workspace {
+  id        String   @id @default(cuid())
+  name      String   @default("Personal")
+  type      WorkspaceType @default(PERSONAL)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  users          User[]
+  assets         Asset[]
+  beneficiaries  Beneficiary[]
+  messages       Message[]
+  checkIns       CheckIn[]
+  subscriptions  SubscriptionItem[]
+  auditLogs      AuditLog[]
+  partnerProfile PartnerProfile?
+
+  @@map("workspaces")
+}
+
+enum WorkspaceType {
+  PERSONAL
+  TEAM
+  PARTNER
+}
+
+// ─── User & Authentication ──────────────────────────────────────────────────
+
+model User {
+  id                String   @id @default(cuid())
+  email             String   @unique
+  emailVerified     Boolean  @default(false)
+
+  // SRP-6a — password never stored, only verifier + salt
+  srpVerifier       String
+  srpSalt           String
+
+  // Vault key encrypted with master key (derived from password via Argon2id)
+  encryptedVaultKey String
+  vaultKeySalt      String
+  vaultKeyVersion   Int      @default(1)
+
+  // Recovery key — vault key encrypted with recovery key (dual encryption)
+  encryptedVaultKeyRecovery String?
+  recoveryKeySalt           String?
+  recoveryKeyHash           String?  // hash to verify recovery key without decrypting
+
+  // MFA
+  mfaEnabled        Boolean  @default(false)
+  mfaType           MfaType?
+  totpSecret        String?  // encrypted
+  webauthnCredential String? // JSON blob
+  backupCodes       String?  // encrypted JSON array
+
+  // Profile
+  displayName       String?
+
+  // Relations
+  workspaceId       String
+  workspace         Workspace @relation(fields: [workspaceId], references: [id])
+
+  sessions          Session[]
+  assets            Asset[]
+  beneficiaries     Beneficiary[]
+  messages          Message[]
+  checkIns          CheckIn[]
+  subscriptions     SubscriptionItem[]
+  auditLogs         AuditLog[]
+
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  @@map("users")
+}
+
+enum MfaType {
+  TOTP
+  WEBAUTHN
+}
+
+// ─── Sessions ───────────────────────────────────────────────────────────────
+
+model Session {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  token     String   @unique
+  device    String?
+  ipAddress String?
+  userAgent String?
+  expiresAt DateTime
+
+  createdAt DateTime @default(now())
+
+  @@index([userId])
+  @@map("sessions")
+}
+
+// ─── Assets ─────────────────────────────────────────────────────────────────
+
+model Asset {
+  id            String       @id @default(cuid())
+  userId        String
+  user          User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  workspaceId   String
+  workspace     Workspace    @relation(fields: [workspaceId], references: [id])
+
+  category      AssetCategory
+  label         String       // plaintext label for list display (non-sensitive)
+
+  // All sensitive data encrypted client-side with per-asset key
+  encryptedData String       @db.Text
+  encryptedKey  String       // per-asset key encrypted with vault key
+  keySalt       String
+  keyVersion    Int          @default(1)
+
+  riskLevel     RiskLevel    @default(UNKNOWN)
+  notes         String?      @db.Text  // encrypted
+
+  // Beneficiary assignments via junction table
+  beneficiaryKeys AssetBeneficiaryKey[]
+
+  createdAt     DateTime     @default(now())
+  updatedAt     DateTime     @updatedAt
+
+  @@index([userId])
+  @@index([workspaceId])
+  @@index([category])
+  @@map("assets")
+}
+
+enum AssetCategory {
+  CRYPTO
+  DOMAINS
+  FINANCIAL
+  BUSINESS
+  IDENTITY
+  SUBSCRIPTIONS
+  MESSAGES
+  DOCUMENTS
+  OTHER
+}
+
+enum RiskLevel {
+  LOW
+  MEDIUM
+  HIGH
+  CRITICAL
+  UNKNOWN
+}
+
+// ─── Beneficiaries ──────────────────────────────────────────────────────────
+
+model Beneficiary {
+  id          String   @id @default(cuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  workspaceId String
+  workspace   Workspace @relation(fields: [workspaceId], references: [id])
+
+  name        String
+  email       String
+  relation    String   // e.g., "Spouse", "Attorney", "Business Partner"
+  phone       String?
+
+  // Asymmetric key pair for selective sharing
+  publicKey   String   // X25519 public key (hex)
+  verified    Boolean  @default(false)
+  verifiedAt  DateTime?
+
+  assetKeys   AssetBeneficiaryKey[]
+  messages    Message[]
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([userId])
+  @@map("beneficiaries")
+}
+
+// ─── Asset-Beneficiary Key Distribution (Junction Table) ────────────────────
+// Per-asset key re-encrypted to each assigned beneficiary's public key.
+// This enables selective access: sharing one asset does not expose others.
+
+model AssetBeneficiaryKey {
+  id              String      @id @default(cuid())
+  assetId         String
+  asset           Asset       @relation(fields: [assetId], references: [id], onDelete: Cascade)
+  beneficiaryId   String
+  beneficiary     Beneficiary @relation(fields: [beneficiaryId], references: [id], onDelete: Cascade)
+
+  // The per-asset key, re-encrypted with the beneficiary's public key
+  encryptedAssetKey String
+  keyVersion        Int       @default(1)
+
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
+
+  @@unique([assetId, beneficiaryId])
+  @@map("asset_beneficiary_keys")
+}
+
+// ─── Messages ───────────────────────────────────────────────────────────────
+
+model Message {
+  id              String         @id @default(cuid())
+  userId          String
+  user            User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  workspaceId     String
+  workspace       Workspace      @relation(fields: [workspaceId], references: [id])
+
+  beneficiaryId   String?
+  beneficiary     Beneficiary?   @relation(fields: [beneficiaryId], references: [id])
+
+  type            MessageType
+  encryptedData   String         @db.Text  // encrypted content
+  deliveryTrigger DeliveryTrigger
+
+  // For date-based triggers
+  deliverAt       DateTime?
+
+  delivered       Boolean        @default(false)
+  deliveredAt     DateTime?
+
+  createdAt       DateTime       @default(now())
+  updatedAt       DateTime       @updatedAt
+
+  @@index([userId])
+  @@map("messages")
+}
+
+enum MessageType {
+  WRITTEN
+  AUDIO
+  VIDEO
+}
+
+enum DeliveryTrigger {
+  CHECK_IN_FAILURE
+  SPECIFIC_DATE
+  ASSET_ACCESS
+}
+
+// ─── Check-in System ────────────────────────────────────────────────────────
+
+model CheckIn {
+  id            String       @id @default(cuid())
+  userId        String
+  user          User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  workspaceId   String
+  workspace     Workspace    @relation(fields: [workspaceId], references: [id])
+
+  intervalDays  Int          @default(30)  // 7–90 days
+  travelPause   Boolean      @default(false)
+  travelResumeAt DateTime?
+
+  // Quorum settings — how many trusted people must confirm
+  quorumRequired Int         @default(1)
+
+  lastCheckIn   DateTime?
+  nextCheckIn   DateTime?
+  status        CheckInStatus @default(ACTIVE)
+
+  history       CheckInLog[]
+
+  createdAt     DateTime     @default(now())
+  updatedAt     DateTime     @updatedAt
+
+  @@index([userId])
+  @@map("check_ins")
+}
+
+enum CheckInStatus {
+  ACTIVE
+  PAUSED
+  MISSED
+  TRIGGERED
+}
+
+model CheckInLog {
+  id        String   @id @default(cuid())
+  checkInId String
+  checkIn   CheckIn  @relation(fields: [checkInId], references: [id], onDelete: Cascade)
+
+  event     String   // "confirmed", "missed", "paused", "resumed"
+  device    String?
+  ipAddress String?
+
+  createdAt DateTime @default(now())
+
+  @@map("check_in_logs")
+}
+
+// ─── Subscription Tracker ───────────────────────────────────────────────────
+
+model SubscriptionItem {
+  id          String   @id @default(cuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  workspaceId String
+  workspace   Workspace @relation(fields: [workspaceId], references: [id])
+
+  name        String
+  cost        Float    // monthly cost
+  currency    String   @default("USD")
+  billingCycle BillingCycle @default(MONTHLY)
+  category    String?
+  url         String?
+  active      Boolean  @default(true)
+  forgotten   Boolean  @default(false) // flagged as potentially forgotten
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([userId])
+  @@map("subscription_items")
+}
+
+enum BillingCycle {
+  MONTHLY
+  ANNUAL
+  WEEKLY
+  QUARTERLY
+}
+
+// ─── Partner Portal ─────────────────────────────────────────────────────────
+
+model PartnerProfile {
+  id            String   @id @default(cuid())
+  workspaceId   String   @unique
+  workspace     Workspace @relation(fields: [workspaceId], references: [id])
+
+  firmName      String
+  contactName   String
+  contactEmail  String
+  phone         String?
+  licenseNumber String?
+  state         String   @default("TX")
+
+  revenueSharePct Float  @default(20.0)
+  approved        Boolean @default(false)
+  approvedAt      DateTime?
+
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@map("partner_profiles")
+}
+
+// ─── Audit Log ──────────────────────────────────────────────────────────────
+
+model AuditLog {
+  id          String   @id @default(cuid())
+  userId      String?
+  user        User?    @relation(fields: [userId], references: [id])
+  workspaceId String?
+  workspace   Workspace? @relation(fields: [workspaceId], references: [id])
+
+  event       String   // e.g., "login", "asset.create", "beneficiary.verify"
+  detail      String?  @db.Text
+  device      String?
+  ipAddress   String?
+  userAgent   String?
+  success     Boolean  @default(true)
+
+  createdAt   DateTime @default(now())
+
+  @@index([userId])
+  @@index([event])
+  @@index([createdAt])
+  @@map("audit_logs")
+}
