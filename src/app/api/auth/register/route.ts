@@ -1,10 +1,14 @@
 import { NextRequest, NextResponse } from "next/server";
+import { PrismaClient } from "@prisma/client";
+
+const prisma = new PrismaClient();
 
 /**
  * POST /api/auth/register
  *
  * Receives SRP verifier + salt and encrypted vault key from client.
  * The server NEVER receives the plaintext password.
+ * Stores user in SQLite database with Prisma ORM.
  */
 export async function POST(request: NextRequest) {
   try {
@@ -16,9 +20,9 @@ export async function POST(request: NextRequest) {
       srpVerifier,
       encryptedVaultKey,
       vaultKeySalt,
-      _encryptedVaultKeyRecovery,
-      _recoveryKeySalt,
-      _recoveryKeyHash,
+      encryptedVaultKeyRecovery,
+      recoveryKeySalt,
+      recoveryKeyHash,
     } = body;
 
     // Validate required fields
@@ -29,26 +33,77 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // In production: save to database via Prisma
-    // For now, return a mock user (database integration in deployment)
-    const user = {
-      id: crypto.randomUUID(),
-      email,
-      displayName: displayName || null,
-      mfaEnabled: false,
-    };
+    // Check if user already exists
+    const existingUser = await prisma.user.findUnique({
+      where: { email },
+    });
+
+    if (existingUser) {
+      return NextResponse.json(
+        { message: "User already exists" },
+        { status: 409 }
+      );
+    }
+
+    // Create personal workspace for the user
+    const workspace = await prisma.workspace.create({
+      data: {
+        name: "Personal",
+        type: "PERSONAL",
+      },
+    });
+
+    // Create user in database
+    const user = await prisma.user.create({
+      data: {
+        email,
+        displayName: displayName || null,
+        srpSalt,
+        srpVerifier,
+        encryptedVaultKey,
+        vaultKeySalt,
+        encryptedVaultKeyRecovery: encryptedVaultKeyRecovery || null,
+        recoveryKeySalt: recoveryKeySalt || null,
+        recoveryKeyHash: recoveryKeyHash || null,
+        workspaceId: workspace.id,
+      },
+    });
 
     // Create session token
     const sessionToken = crypto.randomUUID();
+    const expiresAt = new Date(Date.now() + 30 * 24 * 60 * 60 * 1000); // 30 days
 
-    const response = NextResponse.json({ user, sessionToken }, { status: 201 });
+    // Store session in database
+    await prisma.session.create({
+      data: {
+        userId: user.id,
+        token: sessionToken,
+        device: request.headers.get("user-agent") || undefined,
+        ipAddress: request.headers.get("x-forwarded-for") || request.ip || undefined,
+        userAgent: request.headers.get("user-agent") || undefined,
+        expiresAt,
+      },
+    });
+
+    const response = NextResponse.json(
+      {
+        user: {
+          id: user.id,
+          email: user.email,
+          displayName: user.displayName,
+          mfaEnabled: user.mfaEnabled,
+        },
+        sessionToken,
+      },
+      { status: 201 }
+    );
 
     // Set session cookie
     response.cookies.set("session", sessionToken, {
       httpOnly: true,
       secure: process.env.NODE_ENV === "production",
       sameSite: "lax",
-      maxAge: 60 * 60 * 24 * 7, // 7 days
+      maxAge: 30 * 24 * 60 * 60, // 30 days
       path: "/",
     });
 
@@ -56,8 +111,10 @@ export async function POST(request: NextRequest) {
   } catch (error) {
     console.error("Registration error:", error);
     return NextResponse.json(
-      { message: "Internal server error" },
+      { message: "Registration failed" },
       { status: 500 }
     );
+  } finally {
+    await prisma.$disconnect();
   }
 }

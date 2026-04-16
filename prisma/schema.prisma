@@ -7,7 +7,7 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
+  provider = "sqlite"
   url      = env("DATABASE_URL")
 }
 
@@ -71,7 +71,7 @@ model User {
 
   // Relations
   workspaceId       String
-  workspace         Workspace @relation(fields: [workspaceId], references: [id])
+  workspace         Workspace @relation(fields: [workspaceId], references: [id], onDelete: Cascade)
 
   sessions          Session[]
   assets            Asset[]
@@ -118,19 +118,19 @@ model Asset {
   userId        String
   user          User         @relation(fields: [userId], references: [id], onDelete: Cascade)
   workspaceId   String
-  workspace     Workspace    @relation(fields: [workspaceId], references: [id])
+  workspace     Workspace    @relation(fields: [workspaceId], references: [id], onDelete: Cascade)
 
   category      AssetCategory
   label         String       // plaintext label for list display (non-sensitive)
 
   // All sensitive data encrypted client-side with per-asset key
-  encryptedData String       @db.Text
+  encryptedData String       // @db.Text
   encryptedKey  String       // per-asset key encrypted with vault key
   keySalt       String
   keyVersion    Int          @default(1)
 
   riskLevel     RiskLevel    @default(UNKNOWN)
-  notes         String?      @db.Text  // encrypted
+  notes         String?      // encrypted
 
   // Beneficiary assignments via junction table
   beneficiaryKeys AssetBeneficiaryKey[]
@@ -171,7 +171,7 @@ model Beneficiary {
   userId      String
   user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
   workspaceId String
-  workspace   Workspace @relation(fields: [workspaceId], references: [id])
+  workspace   Workspace @relation(fields: [workspaceId], references: [id], onDelete: Cascade)
 
   name        String
   email       String
@@ -222,13 +222,13 @@ model Message {
   userId          String
   user            User           @relation(fields: [userId], references: [id], onDelete: Cascade)
   workspaceId     String
-  workspace       Workspace      @relation(fields: [workspaceId], references: [id])
+  workspace       Workspace      @relation(fields: [workspaceId], references: [id], onDelete: Cascade)
 
   beneficiaryId   String?
   beneficiary     Beneficiary?   @relation(fields: [beneficiaryId], references: [id])
 
   type            MessageType
-  encryptedData   String         @db.Text  // encrypted content
+  encryptedData   String         // encrypted content
   deliveryTrigger DeliveryTrigger
 
   // For date-based triggers
@@ -263,7 +263,7 @@ model CheckIn {
   userId        String
   user          User         @relation(fields: [userId], references: [id], onDelete: Cascade)
   workspaceId   String
-  workspace     Workspace    @relation(fields: [workspaceId], references: [id])
+  workspace     Workspace    @relation(fields: [workspaceId], references: [id], onDelete: Cascade)
 
   intervalDays  Int          @default(30)  // 7–90 days
   travelPause   Boolean      @default(false)
@@ -313,7 +313,7 @@ model SubscriptionItem {
   userId      String
   user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
   workspaceId String
-  workspace   Workspace @relation(fields: [workspaceId], references: [id])
+  workspace   Workspace @relation(fields: [workspaceId], references: [id], onDelete: Cascade)
 
   name        String
   cost        Float    // monthly cost
@@ -343,7 +343,7 @@ enum BillingCycle {
 model PartnerProfile {
   id            String   @id @default(cuid())
   workspaceId   String   @unique
-  workspace     Workspace @relation(fields: [workspaceId], references: [id])
+  workspace     Workspace @relation(fields: [workspaceId], references: [id], onDelete: Cascade)
 
   firmName      String
   contactName   String
@@ -369,10 +369,10 @@ model AuditLog {
   userId      String?
   user        User?    @relation(fields: [userId], references: [id])
   workspaceId String?
-  workspace   Workspace? @relation(fields: [workspaceId], references: [id])
+  workspace   Workspace? @relation(fields: [workspaceId], references: [id], onDelete: Cascade)
 
   event       String   // e.g., "login", "asset.create", "beneficiary.verify"
-  detail      String?  @db.Text
+  detail      String?
   device      String?
   ipAddress   String?
   userAgent   String?
