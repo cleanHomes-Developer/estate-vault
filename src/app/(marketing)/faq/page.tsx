@@ -38,6 +38,7 @@ export default function FAQPage() {
                     onClick={() => setOpenIndex(isOpen ? null : i)}
                     className="w-full flex items-center justify-between p-5 text-left"
                     aria-expanded={isOpen}
+                    data-faq-item="true"
                   >
                     <span className="font-medium text-ink pr-4">{item.question}</span>
                     <span className="flex-shrink-0">

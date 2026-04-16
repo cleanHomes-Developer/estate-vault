@@ -105,8 +105,8 @@ const articles: Record<string, {
 
 export default function JournalArticlePage() {
   const params = useParams();
-  const slug = params.slug as string;
-  const article = articles[slug];
+  const slug = params?.slug as string;
+  const article = slug ? articles[slug] : undefined;
 
   if (!article) {
     return (
